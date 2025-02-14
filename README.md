@@ -1,10 +1,10 @@
-#**Financial Diversity Advisor Dashboard**
+# **FINANCIAL DIVERSITY ADVISOR**
 
-Overview
+`Overview`
 
 The Financial Diversity Advisor Dashboard helps users diversify investments by analyzing their financial profiles and recommending optimal asset allocation based on investment amount and risk tolerance.
 
-#**Features**
+## **Features**
 
 ✅ Personalized Diversification – Recommends asset allocation based on user input.
 
@@ -18,7 +18,7 @@ The Financial Diversity Advisor Dashboard helps users diversify investments by a
 
 
 
-#**Tech Stack**
+## **Tech Stack**
 
 Frontend: 
 
@@ -28,7 +28,7 @@ Machine Learning: Python (AI-based investment recommendations)
 
 Data Sources: Sectoral company data, financial market trends
 
-#**Setup Instructions**
+## **Setup Instructions**
 
 Clone the repository:
 
@@ -48,7 +48,7 @@ Navigate to the frontend directory and start the UI:
 npm install  
 npm start  
 
-#**Work Progress**
+## **Work Progress**
 
 ✅ Dashboard developed with initial accuracy metrics.
 
@@ -58,12 +58,12 @@ npm start
 
 🔜 Future improvement: Company-wise allocation.
 
-#**Contributing**
+## **Contributing**
 
 Feel free to contribute by submitting issues, pull requests, or suggestions!
 
 
-License
+### License
 
 This project is open-source under the MIT License.
 
