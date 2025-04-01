@@ -1,0 +1,229 @@
+/* General body and layout styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f5f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for the entire app */
+.app-container {
+    padding: 20px;
+    position: relative; /* This will help us position the button correctly */
+}
+
+/* Header styling */
+h1 {
+    font-size: 2.5em;
+    font-weight: 600;
+    color: #2c3e50;
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+/* Button style for Total Asset Value */
+.total-asset-value-button {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    background-color: #2980b9;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+}
+
+/* Button for Add Data */
+.add-data-button {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    background-color: #2ecc71;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+}
+
+/* Styling for the button when hovering */
+.add-data-button:hover,
+.total-asset-value-button:hover {
+    background-color: #3498db;
+}
+
+/* Input fields for the form */
+.input-field {
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+/* Submit button for the form */
+.submit-button {
+    background-color: #e67e22;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #f39c12;
+}
+
+/* ===================== */
+/* BEAUTIFIED POPUP MODAL */
+/* ===================== */
+
+/* Blur background effect */
+#modal {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(8px);
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Popup container */
+.popup-container {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    padding: 30px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    animation: fadeIn 0.5s ease-in-out;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Smooth popup animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Title */
+.popup-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+/* Input fields */
+.popup-input {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    outline: none;
+}
+
+/* Input focus effect */
+.popup-input:focus {
+    border: 2px solid #00ffcc;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* Submit button */
+.popup-btn {
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    border: none;
+    padding: 12px 20px;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+.popup-btn:hover {
+    background: linear-gradient(135deg, #0072ff, #00c6ff);
+    transform: scale(1.05);
+}
+
+/* Responsive popup */
+@media (max-width: 600px) {
+    .popup-container {
+        width: 90%;
+    }
+}
+/* Improve Input Placeholder Readability */
+.popup-input::placeholder {
+    color: rgba(255, 255, 255, 0.8); /* Make it more visible */
+    font-weight: 600; /* Bold for better contrast */
+    font-size: 14px;
+    text-align: center;
+}
+
+/* Ensure input text is readable */
+.popup-input {
+    color: #fff; /* White text inside input box */
+    font-size: 16px;
+}
+
+.cluster-button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background: linear-gradient(45deg, #ffcc00, #ff6600);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    box-shadow: 0px 0px 10px rgba(255, 165, 0, 0.8);
+    animation: lightning 1.5s infinite;
+}
+
+@keyframes lightning {
+    0% { box-shadow: 0px 0px 10px rgba(255, 165, 0, 0.8); }
+    50% { box-shadow: 0px 0px 20px rgba(255, 255, 0, 1); }
+    100% { box-shadow: 0px 0px 10px rgba(255, 165, 0, 0.8); }
+}
+
+.cluster-button:hover {
+    transform: scale(1.1);
+}

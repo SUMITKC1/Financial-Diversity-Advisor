@@ -1,0 +1,51 @@
+Sector_Balance,Asset_Class_Distribution,Regional_Exposure,Description,Cluster_Label,PCA1,PCA2
+15,60,80,"High exposure to technology sector with a balanced asset allocation, focusing primarily on domestic markets.",1,30.754440696194536,-4.591349054621759
+20,55,70,"Diversified across multiple sectors with a tilt towards equities, maintaining significant exposure to Indian regions.",1,19.371429544755294,-9.109793606043425
+25,50,75,"Focused on healthcare and finance sectors, balancing between equity and debt, with substantial domestic investments.",1,16.176818687798715,-1.0715968166593584
+30,45,85,"Energy and industrial-heavy fund, leaning towards fixed income assets, predominantly invested within India.",1,15.711674595669692,11.152147086326629
+35,40,90,"Majority in consumer goods sector, with a conservative asset mix, emphasizing high regional exposure to Indian markets.",1,12.517063738713112,19.19034387571069
+40,35,65,"Mixed exposure, tilted towards real estate, maintaining a diversified asset class distribution with moderate regional focus.",1,-7.054347707208791,2.1152579834832963
+45,30,60,"Diversified across major sectors, favoring alternative investments, with a balanced approach to regional exposure.",1,-15.707892093820476,1.7823605456635434
+50,25,55,"High weightage on growth sectors, minimal debt exposure, focusing on both domestic and select international markets.",1,-24.36143648043216,1.4494631078437834
+55,20,50,"Significant allocation in utilities, primarily equity-based, with equal distribution between Indian and global investments.",1,-33.014980867043846,1.1165656700240305
+60,15,45,"Predominantly defensive sectors, conservative asset allocation, with a slight inclination towards international exposure.",0,-41.66852525365554,0.7836682322042776
+10,70,95,"Technology and innovation-focused, high equity allocation, with extensive exposure to Indian markets.",2,47.865449513181375,2.01348751233256
+12,65,85,"Conservative fund with limited sector exposure, balanced asset distribution, focusing mainly on domestic investments.",1,38.237766394380586,-3.557053785716846
+18,60,80,"Diversified with emphasis on small caps, higher equity proportion, maintaining substantial regional exposure within India.",1,28.99911266355609,-3.539252307994019
+22,55,75,"Balanced fund targeting mid-caps, equal distribution between equity and debt, with a focus on Indian regions.",1,20.930677621157216,-4.222848661356352
+28,50,70,"Aggressive allocation in emerging markets, diversified sectors, with a significant portion in alternative assets.",1,11.692023890332713,-4.205047183633525
+33,45,65,"Focused on large-cap equity, moderate sector diversification, maintaining a balanced regional exposure.",1,3.038479503721028,-4.537944621453285
+38,40,60,"Sector-neutral with broad exposure, conservative asset class distribution, with a slight tilt towards international markets.",1,-5.615064882890664,-4.870842059273038
+42,35,55,"Regional emphasis on North America, diversified sectors, favoring alternative investments with moderate asset allocation.",1,-13.683499925289528,-5.5544384126353705
+48,30,50,"Global exposure with Asia focus, high sector diversification, minimal debt, balancing between Indian and international markets.",1,-22.92215365611403,-5.5366369349125435
+53,25,45,"Europe-focused diversified portfolio, mixed asset class distribution, with a conservative approach to regional exposure.",1,-31.575698042725715,-5.869534372732296
+17,58,78,"High exposure to financial services, balanced asset allocation, focusing primarily on domestic markets.",1,27.293022941549864,-4.724508029749657
+23,53,68,"Diversified across multiple sectors with a tilt towards equities, maintaining significant exposure to Indian regions.",1,15.324902445897806,-8.892253665628743
+27,48,73,"Focused on healthcare and consumer goods sectors, balancing between equity and debt, with substantial domestic investments.",1,12.715400933154044,-1.2047557917872567
+32,43,83,"Industrial and infrastructure-heavy fund, leaning towards fixed income assets, predominantly invested within India.",1,12.250256841025013,11.018988111198723
+37,38,88,"Majority in energy sector, with a conservative asset mix, emphasizing high regional exposure to Indian markets.",1,9.055645984068441,19.05718490058279
+41,33,63,"Mixed exposure, tilted towards telecommunications, maintaining a diversified asset class distribution with moderate regional focus.",1,-9.930656117640648,1.631400092812811
+46,28,58,"Diversified across major sectors, favoring alternative investments, with a balanced approach to regional exposure.",1,-18.584200504252333,1.298502654993058
+51,23,53,"High weightage on consumer discretionary, minimal debt exposure, focusing on both domestic and select international markets.",1,-27.237744890864022,0.9656052171733052
+56,18,48,"Significant allocation in materials sector, primarily equity-based, with equal distribution between Indian and global investments.",1,-35.89128927747571,0.6327077793535452
+61,13,43,"Predominantly defensive sectors, conservative asset allocation, with a slight inclination towards international exposure.",0,-44.5448336640874,0.29981034153379227
+11,68,93,"Technology and innovation-focused, high equity allocation, with extensive exposure to Indian markets.",2,44.98914110274953,1.5296296216620817
+13,63,83,"Conservative fund with limited sector exposure, balanced asset distribution, focusing mainly on domestic investments.",1,35.361457983948725,-4.040911676387324
+19,58,78,"Diversified with emphasis on mid caps, higher equity proportion, maintaining substantial regional exposure within India.",1,26.12280425312423,-4.023110198664497
+24,53,73,"Balanced fund targeting large-caps, equal distribution between equity and debt, with a focus on Indian regions.",1,17.469259866512537,-4.356007636484257
+29,48,68,"Aggressive allocation in emerging markets, diversified sectors, with a significant portion in alternative assets.",1,8.815715479900852,-4.68890507430401
+34,43,63,"Focused on small-cap equity, moderate sector diversification, maintaining a balanced regional exposure.",1,0.16217109328916735,-5.021802512123763
+39,38,58,"Sector-neutral with broad exposure, conservative asset class distribution, with a slight tilt towards international markets.",1,-8.491373293322518,-5.354699949943516
+43,33,53,"Regional emphasis on Europe, diversified sectors, favoring alternative investments with moderate asset allocation.",1,-16.55980833572139,-6.038296303305849
+49,28,48,"Global exposure with Africa focus, high sector diversification, minimal debt, balancing between Indian and international markets.",1,-25.79846206654589,-6.020494825583029
+54,23,43,"Latin America-focused diversified portfolio, mixed asset class distribution, with a conservative approach to regional exposure.",0,-34.45200645315758,-6.353392263402782
+16,59,81,Predominantly focused on infrastructure development funds with high sectoral diversification.,1,30.11551852480322,-2.9837096967449455
+21,54,71,"A fund emphasizing financial inclusion and rural banking sector investments, balanced asset allocation.",1,18.73250737336398,-7.502154248166612
+26,49,76,"Mixed portfolio with high exposure to the energy transition sector, focusing on renewables.",1,15.5378965164074,0.536042541217455
+31,44,86,A heavy equity-oriented fund with telecom sector focus and emerging market exposure.,1,15.072752424278377,12.759786444203435
+36,39,91,Balanced portfolio investing in India's rapid urbanization-driven companies.,1,11.878141567321798,20.79798323358751
+44,34,66,Specialized fund investing in India's agribusiness supply chain and technology innovation.,1,-9.448597911238554,4.774994087987849
+47,29,61,"A fund emphasizing India's flagship industrial corridors, with high global exposure.",1,-16.931923609424608,3.7406988190829296
+52,24,56,Technology-first approach with leading AI sector innovation-focused investments.,1,-25.585467996036293,3.4078013812631767
+57,19,51,Balanced exposure between traditional manufacturing and India's startup ecosystem.,1,-34.23901238264798,3.0749039434434238
+62,14,46,Diversified exposure to India's sunrise sectors including EV manufacturing and battery tech.,1,-42.89255676925966,2.742006505623671
