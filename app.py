@@ -16,6 +16,7 @@ try:
 except FileNotFoundError:
     df_investment = pd.DataFrame(columns=["Sector", "Company", "20-29", "30-39", "40-49", "50-59", "60+"])
 
+
 sectors = df_investment["Sector"].unique() if "Sector" in df_investment.columns else []
 
 # Dash App Layout
@@ -33,7 +34,7 @@ app.layout = html.Div([
 
     html.Div(id="modal", children=[
         html.Div(className="popup-container", children=[
-            html.H2("💲 Enter Your Details", className="popup-title"),
+            html.H2("💲 User Details", className="popup-title"),
             dcc.Input(id="name-input", type="text", placeholder="Enter your name", className="popup-input"),
             dcc.Input(id="age-input", type="number", placeholder="Enter your age", min=20, max=65, className="popup-input"),
             dcc.Input(id="amount-input", type="number", placeholder="Enter amount", min=1000, className="popup-input"),
@@ -66,6 +67,16 @@ app.layout = html.Div([
             ),
             dcc.Graph(id="sector-investment-bar-chart")
         ], style={'width': '48%', 'display': 'inline-block'}),
+
+        # 👇 Image added above the download button
+        html.Img(src='/assets/Figure_1.png', style={
+            'display': 'block',
+            'margin': '20px auto',
+            'width': '60%',
+            'border': '1px solid #ccc',
+            'border-radius': '10px',
+            'padding': '10px'
+        }),
 
         html.Button("Download PDF", id="print-btn", className="print-button",
                     style={'display': 'block', 'margin': '20px auto', 'padding': '10px 20px', 'font-size': '16px',
@@ -115,10 +126,14 @@ def update_dashboard(n_clicks, selected_sector, name, age, amount):
                          title="Investment Allocation")
         profile_type = "Conservative" if age >= 60 else "Very Low Risk" if age >= 50 else "Low Risk" if age >= 40 else "Balanced" if age >= 30 else "Aggressive"
         return (
-        f"{name}'s Dashboard 📊", fig_pie, dash.no_update, {'display': 'none'}, {'display': 'block'}, f"Age: {age}",
-        f"Investment: ${amount}", f"Profile: {profile_type}")
+            f"{name}'s Dashboard 📊", fig_pie, dash.no_update, {'display': 'none'}, {'display': 'block'},
+            f"Age: {age}", f"Investment: ${amount}", f"Profile: {profile_type}"
+        )
 
     return dash.no_update
+
+
+# Print to PDF on button click (client-side)
 app.clientside_callback(
     """
     function(n) {
