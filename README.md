@@ -33,6 +33,14 @@ The **Financial Diversity Advisor** is a machine learning-based tool designed to
 → Clean, intuitive visuals using Plotly and Matplotlib.
 
 ---
+![image](https://github.com/user-attachments/assets/9c55d1a9-d1b2-4326-97f6-22371255cf6f)
+---
+![image](https://github.com/user-attachments/assets/e7c06f40-29af-46f2-a5aa-5fe607b29d0c)
+---
+![image](https://github.com/user-attachments/assets/2d0a5b64-e04e-424e-9d02-6da1c757d91a)
+---
+![image](https://github.com/user-attachments/assets/0c9bec56-1cbe-4cfa-8de6-4ed310890224)
+
 
 ## 🧠 **How It Works**
 
